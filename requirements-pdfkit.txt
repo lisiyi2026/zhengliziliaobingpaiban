@@ -1,0 +1,5 @@
+# Installed in the isolated .venv-pdfkit environment so MinerU's Torch 2.8
+# environment remains untouched.
+pdf-extract-kit==0.1.0
+paddleocr==2.7.3
+paddlepaddle==3.3.1

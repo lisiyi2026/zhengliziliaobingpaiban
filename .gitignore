@@ -1,0 +1,39 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+.yescan/
+
+# User-provided and generated files
+input/pdfs/*
+!input/pdfs/.gitkeep
+input/word/*
+!input/word/.gitkeep
+input/reference/*
+!input/reference/.gitkeep
+output/word/*
+!output/word/.gitkeep
+output/reports/*
+!output/reports/.gitkeep
+tmp/word/*
+!tmp/word/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Optional local runtimes and model weights (recreate/download when needed)
+.venv-mineru/
+.venv-pdfkit/
+.venv-pipeline/
+models/
+
+# Temporary conversion, bridge, render, and QA artifacts
+tmp/
+
+# Local generated backups and Office lock files
+output/backups/
+~$*.docx
